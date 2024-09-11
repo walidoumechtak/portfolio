@@ -178,9 +178,17 @@ body::-webkit-scrollbar-thumb {
 
 .img-holder {
   aspect-ratio: var(--width) / var(--height);
+  /* background-color: var(--light-gray); */
+  overflow: hidden;
+}
+
+.img-holder2 {
+  aspect-ratio: var(--width) / var(--height);
   background-color: var(--light-gray);
   overflow: hidden;
 }
+
+
 
 .has-before {
   position: relative;
@@ -197,6 +205,24 @@ body::-webkit-scrollbar-thumb {
   height: 100%;
   object-fit: cover;
 }
+
+.img-cover:hover {
+  transform: rotate(-15deg);
+  transform-origin: bottom right;
+  transition: transform 0.5s;
+}
+
+/* 
+.hero-banner::before {
+  bottom: -40px;
+  left: -95px;
+  width: 90%;
+  height: 100%;
+  background-color: var(--theme-color);
+  z-index: -1;
+  transform: rotate(-15deg);
+  border-radius: var(--radius-10);
+} */
 
 .section-subtitle {
   color: var(--theme-color);
@@ -238,6 +264,7 @@ body::-webkit-scrollbar-thumb {
   position: relative;
   overflow: hidden;
   border-radius: var(--radius-10);
+  border: 2px solid var(--black_10);
 }
 
 .card-content {
