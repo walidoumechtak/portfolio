@@ -482,7 +482,9 @@ body::-webkit-scrollbar-thumb {
 } */
 
 .skills-list {
+  width: 100%;
   display: flex;
+  flex-wrap: wrap;
   gap: 40px;
 }
 
@@ -712,6 +714,38 @@ textarea.input-field {
 /**
  * responsive for larger than 576px screen
  */
+
+
+ @media (max-width: 450px) {
+  .logo {
+    visibility: hidden;
+  }
+ }
+
+ @media (max-width: 991px) {
+  .img-cover:hover {
+    transform: none;
+  }
+
+  .hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar-link {
+    padding: 10px 15px;
+  }
+
+  .navbar {
+    padding: 20px;
+  }
+
+  .navbar.active {
+    max-height: 400px;
+  }
+
+ }
 
 @media (min-width: 576px) {
 
