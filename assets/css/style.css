@@ -354,6 +354,10 @@ body::-webkit-scrollbar-thumb {
   color: var(--theme-color);
 }
 
+.nav-toggle-btn{
+  visibility: hidden;
+}
+
 .nav-toggle-btn .line {
   width: 30px;
   height: 2px;
@@ -758,6 +762,10 @@ textarea.input-field {
     transform: none;
   }
 
+  .nav-toggle-btn {
+    visibility: visible ;
+  }
+
   .hero-content {
     display: flex;
     flex-direction: column;
@@ -972,9 +980,9 @@ textarea.input-field {
     transition: var(--transition);
   }
 
-  .navbar { visibility: hidden; }
+  /* .navbar { visibility: hidden; } */
 
-  .navbar.active { visibility: visible; }
+  /* .navbar.active { visibility: visible; } */
 
   .navbar-list {
     display: flex;
@@ -983,7 +991,7 @@ textarea.input-field {
   }
 
   .navbar-link {
-    opacity: 0;
+    /* opacity: 0; */
     transform: translateX(20px);
     font-weight: var(--fw-400);
     transition: var(--transition);
