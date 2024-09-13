@@ -1,24 +1,8 @@
-/*-----------------------------------*\
-  #style.css
-\*-----------------------------------*/
-
-/**
- * copyright 2022 codewithsadee
- */
-
-
-
-
-
-/*-----------------------------------*\
-  #CUSTOM PROPERTY
-\*-----------------------------------*/
+/* custom property */
 
 :root {
 
-  /** 
-   * colors
-   */
+  /* colors */
 
   --sonic-silver: hsl(0, 0%, 46%);
   --spanish-gray: hsl(0, 0%, 60%);
@@ -35,9 +19,7 @@
   --white: hsl(0, 0%, 100%);
   --black: hsl(0, 0%, 0%);
 
-  /**
-   * typography
-   */
+  /* typographie  */
 
   --ff-poppins: 'Poppins', sans-serif;
   --ff-mulish: 'Mulish', sans-serif;
@@ -55,28 +37,20 @@
   --fw-500: 500;
   --fw-400: 400;
 
-  /**
-   * spacing
-   */
+ /* spacing */
 
   --section-padding: 80px;
 
-  /**
-   * shadow
-   */
+/* shadow */
 
   --shadow: 0 0 20px hsla(0, 0%, 0%, 0.08);
 
-  /**
-   * radius
-   */
+  /* radius */
 
   --radius-10: 10px;
   --radius-8: 8px;
 
-  /**
-   * transition
-   */
+/* transition */
 
   --transition: 0.25s ease;
   --cubic-out: cubic-bezier(0.33, 0.85, 0.4, 0.96);
@@ -87,9 +61,7 @@
 
 
 
-/*-----------------------------------*\
-  #RESET
-\*-----------------------------------*/
+/* reset */
 
 *,
 *::before,
@@ -168,9 +140,7 @@ body::-webkit-scrollbar-thumb {
 
 
 
-/*-----------------------------------*\
-  #REUSED STYLE
-\*-----------------------------------*/
+/* reused style */
 
 .container { padding-inline: 30px; }
 
@@ -212,17 +182,6 @@ body::-webkit-scrollbar-thumb {
   transition: transform 0.5s;
 }
 
-/* 
-.hero-banner::before {
-  bottom: -40px;
-  left: -95px;
-  width: 90%;
-  height: 100%;
-  background-color: var(--theme-color);
-  z-index: -1;
-  transform: rotate(-15deg);
-  border-radius: var(--radius-10);
-} */
 
 .section-subtitle {
   color: var(--theme-color);
@@ -318,9 +277,7 @@ body::-webkit-scrollbar-thumb {
 
 
 
-/*-----------------------------------*\
-  #HEADER
-\*-----------------------------------*/
+/* header */
 
 .header {
   position: fixed;
@@ -407,9 +364,7 @@ body::-webkit-scrollbar-thumb {
 
 
 
-/*-----------------------------------*\
-  #HERO
-\*-----------------------------------*/
+/* landing page or hero */
 
 .slide-down-btn { display: none; }
 
@@ -550,9 +505,7 @@ body::-webkit-scrollbar-thumb {
 
 
 
-/*-----------------------------------*\
-  #TIMELINE
-\*-----------------------------------*/
+/* timeline */
 
 .timeline-item {
   padding-block: 20px;
@@ -571,9 +524,7 @@ body::-webkit-scrollbar-thumb {
 
 
 
-/*-----------------------------------*\
-  #PRICEING
-\*-----------------------------------*/
+/* tools i use */
 
 .pricing { background-color: var(--cultured); }
 
@@ -627,9 +578,7 @@ body::-webkit-scrollbar-thumb {
 
 
 
-/*-----------------------------------*\
-  #NEWS
-\*-----------------------------------*/
+/* news */
 
 .news-card .card-text { margin-block-end: 5px; }
 
@@ -637,9 +586,7 @@ body::-webkit-scrollbar-thumb {
 
 
 
-/*-----------------------------------*\
-  #CONTACT
-\*-----------------------------------*/
+/* contact */
 
 .contact { background-color: var(--cultured); }
 
