@@ -414,13 +414,22 @@ body::-webkit-scrollbar-thumb {
   padding-block-start: calc(var(--section-padding) + 30px);
 }
 
-.resume {
+.resume{
   padding: 10px 15px;
   color: var(--light-gray);
   background-color: var(--theme-color);
   border-radius: 5px;
   display: inline-block;
   margin-top: 10px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  border: 2px solid var(--theme-color);
+  transition: all 0.3s ease;
+}
+
+.resume:hover{
+  color: var(--theme-color);
+  background-color: var(--white);
 }
 
 .hero-banner {
@@ -737,6 +746,10 @@ textarea.input-field {
  @media (max-width: 450px) {
   .logo {
     visibility: hidden;
+  }
+
+  .header {
+    padding-right: 70px;
   }
  }
 
